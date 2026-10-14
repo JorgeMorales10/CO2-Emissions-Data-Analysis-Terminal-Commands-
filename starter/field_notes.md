@@ -95,8 +95,12 @@ row. Column numbers for reference: `country`=1, `iso_code`=2, `year`=3,
 `population`=4, `gdp`=5, `co2`=6.
 
 ```bash
-# TODO: a command that prints the first 6 values from a single column
-# (repeat this for at least 5 of the 6 columns, swapping in each column's number)
+cut -d ',' -f1 co2_emissions_2022.csv | head -n 6
+cut -d ',' -f2 co2_emissions_2022.csv | head -n 6
+cut -d ',' -f3 co2_emissions_2022.csv | head -n 6
+cut -d ',' -f4 co2_emissions_2022.csv | head -n 6
+cut -d ',' -f5 co2_emissions_2022.csv | head -n 6
+cut -d ',' -f6 co2_emissions_2022.csv | head -n 6
 ```
 
 Fill in the table from what you actually saw — not a guess from the column
@@ -104,18 +108,19 @@ name alone:
 
 | Column | Inferred type | How I can tell |
 |---|---|---|
-| _TODO_ | _TODO_ | _TODO_ |
-| _TODO_ | _TODO_ | _TODO_ |
-| _TODO_ | _TODO_ | _TODO_ |
-| _TODO_ | _TODO_ | _TODO_ |
-| _TODO_ | _TODO_ | _TODO_ |
+| _Country_ | _String_ | _It's organizing the column by labeling them in countries through text_ |
+| _Iso_code_ | _String_ | _It shows letters representing the country in text_ |
+| _Year_ | _Integer_ | _This is a way of labeling in a whole number each country through one year_ |
+| _Population_ | _Integer_ | _It's a whole number showing a total of people in the country_ |
+| _Gdp_ | _Integer_ | _It's a whole number_ |
+| _Co2_ | _Float_ | _It has a number but with a decimal_ |
 
 **In your own words:** what's the actual difference between a list/array
 and a table? (Not a definition you looked up — explain it the way you'd
 explain it to a friend who's never coded. No command needed for this one,
 just think about the table you just filled in above.)
 
-_TODO_
+_A list is less organized not having any columns or rows built with just lines and commas. While a table shows each column labeled and as well as rows showing the output for that column._
 
 ## 4. Structured or unstructured?
 
