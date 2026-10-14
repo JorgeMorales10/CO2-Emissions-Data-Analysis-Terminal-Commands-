@@ -126,7 +126,7 @@ _A list is less organized not having any columns or rows built with just lines a
 
 State whether this dataset is structured or unstructured, and why.
 
-_TODO_
+_The dataset is structured because _
 
 ## 5. Before you trust this data
 
