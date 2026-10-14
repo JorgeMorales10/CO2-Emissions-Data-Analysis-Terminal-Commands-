@@ -65,9 +65,14 @@ head -n 5 co2_emissions_2022.csv
 ```
 
 **Output:**
-_TODO: paste what you actually got_
+country,iso_code,year,population,gdp,co2
+Afghanistan,AFG,2022,40578847,53303471617,10.170
+Africa,,2022,1445862695,,1459.114
+Africa (GCP),,2022,,,1459.103
+Albania,ALB,2022,2827614,36171005594,4.498
 
-**What I notice:** _TODO — your raw observations, in your own words_
+
+**What I notice:** I notice that some of the columns are missing data for some of the countries. I see that in Africa they are repeated, one showing population and then both not showing iso code and gdp.
 
 ## 2. Column names
 
