@@ -72,7 +72,7 @@ Africa (GCP),,2022,,,1459.103
 Albania,ALB,2022,2827614,36171005594,4.498
 
 
-**What I notice:** I notice that some of the columns are missing data for some of the countries. I see that in Africa they are repeated, one showing population and then both not showing iso code and gdp.
+**What I notice:** I notice that some of the columns are missing data for some of the countries. I see that in Africa they are repeated, one showing population and then both not showing iso code and gdp because they both are continents in the column country.
 
 ## 2. Column names
 
@@ -126,7 +126,7 @@ _A list is less organized not having any columns or rows built with just lines a
 
 State whether this dataset is structured or unstructured, and why.
 
-_The dataset is structured because _
+_The dataset is structured because it has the a consistent data type to each column and rows, but it could be semi-structured because it has continents in the column of country. As well as showing certain area and effects to climate change in co2._
 
 ## 5. Before you trust this data
 
