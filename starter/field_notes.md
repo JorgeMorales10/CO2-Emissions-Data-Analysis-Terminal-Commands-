@@ -166,7 +166,7 @@ phrase it as a real question you'd send to the data's source/maintainer. A
 good test: could they actually answer it with a concrete yes/no or fact —
 not "is this data good?"
 
-_TODO_
+_Are the ones that are missing iso code actual countries or are they just in the column country? Are they missing more than just iso code or are they missing something else since they are not countries._
 
 ## 7. Something you're actually curious about
 
@@ -176,14 +176,15 @@ curious to explore using this data? Pick two specific countries you're
 curious to compare, and look up their full rows.
 
 ```bash
-# TODO: a command that finds a specific country's row by name (repeat for
-# a second country of your choice)
+grep 'United States' co2_emissions_2022.csv
+grep 'Guatemala' co2_emissions_2022.csv
 ```
 
 **Output:**
-_TODO_
+_United States,USA,2022,341534041,19493170182843,5055.403
+Guatemala,GTM,2022,17847877,146224632616,18.913_
 
-**My question:** _TODO_
+**My question:** _Why is the co2 gap between these 2 countries so far apart? Is it due to the geographic difference or how industrialized one country is?_
 
 ## 8. AI-literacy reflection
 
