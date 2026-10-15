@@ -178,3 +178,5 @@ doesn't end up sitting in your portfolio repo).
 **Share-out:** this week during TIP, we'll share out your data-quality
 questions, how you used AI, and any reflections from the project — so come
 ready to talk about your project.
+
+Each column holds country, iso_code, year, population, gdp, co2 each hold its own data type. Country is a string, iso code is a string, year is an integer, population is an integer, gdp is integer, and co2 is a float because it has numbers with a decimal. This dataset is structured build on fixed rows and columns with a consistent data type, but it could be semi-structured due to some data type being in the country column but not being a country itself. As I bring up the some data type being in the column country, we should watch out cause some are continents or certain area or things that are building up co2. Their are some repeat data and missing some certain data type

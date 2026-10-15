@@ -157,7 +157,7 @@ at least one in the counts you just found.
 
 **My 2 concerns:**
 1. _What kind of reason is their for not having iso code for these 36 lines? Why is iso code important?_
-2. _Is the is code affecting the dataset badly? Is their a good reason why it has missing lines?_
+2. _Is the iso code affecting the dataset badly? Is their a good reason why it has missing lines?_
 
 ## 6. Data-quality question for the source
 
