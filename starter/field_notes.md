@@ -138,15 +138,14 @@ You may need more than one command for this — piping (`|`) feeds one
 command's output into the next as input.
 
 ```bash
-# TODO: a command (or combination) that counts how many rows have a
-# BLANK iso_code
+cut -d ',' -f2 co2_emissions_2022.csv | grep -c '^$'
 ```
 
 **Output:**
-_TODO_
+_Their are 36 lines missing_
 
 ```bash
-# TODO: the same idea, but for the gdp column
+36
 ```
 
 **Output:**
@@ -157,8 +156,8 @@ dataset was collected, before trusting any conclusion drawn from it — ground
 at least one in the counts you just found.
 
 **My 2 concerns:**
-1. _TODO_
-2. _TODO_
+1. _What kind of reason is their for not having iso code for these 36 lines? Why is iso code important?_
+2. _Is the is code affecting the dataset badly? Is their a good reason why it has missing lines?_
 
 ## 6. Data-quality question for the source
 
