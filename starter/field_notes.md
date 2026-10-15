@@ -195,10 +195,10 @@ fact before relying on it professionally — specific enough that you could
 actually follow it, not "I'll be careful."
 
 **Risks:**
-1. _TODO_
-2. _TODO_
+1. _One risk on trusting AI assistant's output about this dataset is that they won't notice in the column of country, most are not country but continents and just certain things or area causing co2._
+2. _Another risk is that the data would not notice certain data or might accidentally fill in its own data because it's missing for them and created a solution to prove their point._
 
-**My rule:** _TODO_
+**My rule:** _One specific rule I'll make for double checking AI is by asking it to show an example and by making sure that they explain it thoroughly following it step by step and making sure they don't include misleading information as well as leaving out certain data._
 
 ## 9. Something that went wrong (and how you figured it out)
 
@@ -209,10 +209,12 @@ this at least once. Paste the actual command and what actually happened
 fix — not "I googled it and it worked."
 
 ```bash
-# TODO: a command that errored, or gave you unexpected results
+cut -d ',' -F co2_emissions_2022.csv | grep -c '^$'
 ```
 
 **What happened:**
-_TODO: the actual error message, or the unexpected output you got_
+_cut: unknown option -- F
+Try 'cut --help' for more information.
+0._
 
-**What it told me and how I fixed it:** _TODO_
+**What it told me and how I fixed it:** _What I noticed was that I was missing which column I'm trying to look for the missing lines, and it still gave me 0._
