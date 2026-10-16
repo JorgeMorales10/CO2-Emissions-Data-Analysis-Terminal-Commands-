@@ -39,7 +39,7 @@ git status
 ````
 
 Three backticks, the word `bash`, your command, three backticks to close —
-it renders with syntax highlighting and makes the command copy-pasteable.
+it renders with syntax highlighting and makes the command copy-paste able.
 
 ## Setup log
 
